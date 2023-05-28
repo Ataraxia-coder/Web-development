@@ -1,0 +1,13 @@
+
+var botnum = 99
+function beer() {
+         
+    while (botnum > 0){
+        
+      console.log(  botnum + " bottles of beer on the wall, " + botnum + " bottles of beer. Take one down and pass it around, " 
+      +  --botnum + " bottles of beer on the wall.")  
+    }
+  
+   console.log("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.")
+
+}

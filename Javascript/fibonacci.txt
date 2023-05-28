@@ -1,0 +1,31 @@
+function fibonacciGenerator (n) {
+//Do NOT change any of the code above 👆
+    
+    //Write your code here:
+    var arr = []
+  
+     if (n===1){
+         arr.push(0)
+         
+     }
+     else if(n===2){
+         arr.push(0,1)
+     }
+      
+     else  {
+         arr = [0,1]
+        for (var i= 2; i<n; i++ ){
+         arr.push(arr[i-2]+ arr[i-1])
+        }
+
+     }
+    return arr 
+
+
+    //Return an array of fibonacci numbers starting from 0.
+    
+//Do NOT change any of the code below 👇
+}
+
+output = fibonacciGenerator (1)
+console.log(output)

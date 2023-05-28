@@ -1,0 +1,19 @@
+
+
+
+var names = ["Hongmiao", "Jiyong", "Freund", "Freundin"]
+
+function whosPaying(names) {
+    
+/******Don't change the code above*******/
+    
+    //Write your code here.
+    
+    
+    
+    var name = names[Math.floor(Math.random()*names.length)];
+    return name + " is going to buy lunch today!";
+
+
+/******Don't change the code below*******/    
+}
